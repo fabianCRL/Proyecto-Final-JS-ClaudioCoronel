@@ -1,0 +1,119 @@
+
+.FondoBody{
+    background-color: rgb(212, 189, 233);
+}
+
+.titulo1{
+padding: 1rem;
+
+}
+
+.titulo2{
+    padding:1rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.inputBar {
+    padding: 3rem;
+}
+
+.btn {
+    background-color: rgb(131, 235, 28);   
+}
+
+.temaOscuro {
+    color: aliceblue;
+    background-color: black;
+}
+
+.inputTexto {
+    width: 350px;
+}
+
+.itemCard{
+    display: flex;
+    width: 30rem;
+    height: 15rem;
+    padding: 2rem;
+}
+
+.itemImagen{
+    display: flex;
+}
+
+.itemAgregar{
+    margin: 1rem;
+}
+
+.itemTitulo{
+    margin-left: 1rem;
+}
+
+.itemPrecio{
+    margin-left: 2rem;
+}
+
+.carritoCompras{
+    width: 420px;
+    height: 100vh;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 2px;
+    background-color:rgb(255, 255, 255);
+    color: green;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.3s;
+    
+}
+
+.tituloCarrito{
+    margin-left: 1.75rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: bold;
+}
+
+.itemsCarrito{
+    display: flex;
+}
+
+.carrito-imagen{
+    border-color: blueviolet;
+    border-style: groove;
+    width: 40px;
+    border-radius: 50px;
+    margin: 8px;
+}
+
+.carrito-nombre{
+    margin: 13px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.carrito-precio{
+    margin: 13px;
+    color:blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.botonCompraContainer{
+    justify-content: center;
+    text-align: center;
+}
+
+.botonCompra{
+    padding: 7px;
+    margin: 13px;
+    border-radius: 6px;
+    background-color: rgb(95, 4, 180);
+
+}
+
+
+
+
+
